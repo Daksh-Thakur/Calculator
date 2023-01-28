@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calcBody">
+        <div class="calculator-grid">
+            <div class="output">            
+                <div class="previous-operand"></div>
+                <div class="current-operand" ></div>
+            </div>
+            <button onclick="clr()" class="span-two">AC</button>
+            <button value= "&larr;" onclick="rem(value)">&larr;</button>
+            <button onclick="op('/')">&div;</button>
+            <button onclick="fn(1)">1</button>
+            <button onclick="fn(2)">2</button>
+            <button onclick="fn(3)">3</button>
+            <button onclick="op('*')">&Cross;</button>
+            <button onclick="fn(4)">4</button>
+            <button onclick="fn(5)">5</button>
+            <button onclick="fn(6)">6</button>
+            <button onclick="op('+')">&plus;</button>
+            <button onclick="fn(7)">7</button>
+            <button onclick="fn(8)">8</button>
+            <button onclick="fn(9)">9</button>
+            <button onclick="op('-')">&minus;</button>
+            <button onclick="fn('.')">.</button>
+            <button onclick="fn(0)">0</button>
+            <button onclick="cal()" class="span-two">&equals;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
